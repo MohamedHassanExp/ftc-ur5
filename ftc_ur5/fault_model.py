@@ -1,7 +1,7 @@
 import numpy as np
 
 class ActuatorFaultModel:
-s
+
     def __init__(self, n_joints=6):
         self.n = n_joints
         self.rho = np.ones(n_joints)
